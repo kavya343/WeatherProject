@@ -1,15 +1,24 @@
 {
-  "name": "weatherproject",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "escape-html",
+  "description": "Escape string for use in HTML",
+  "version": "1.0.3",
+  "license": "MIT",
+  "keywords": [
+    "escape",
+    "html",
+    "utility"
+  ],
+  "repository": "component/escape-html",
+  "devDependencies": {
+    "benchmark": "1.0.0",
+    "beautify-benchmark": "0.2.4"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.18.2"
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "index.js"
+  ],
+  "scripts": {
+    "bench": "node benchmark/index.js"
   }
 }
